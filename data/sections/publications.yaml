@@ -1,0 +1,51 @@
+# section information
+section:
+  name: Publications
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: "Towards deep player behavior models in MMORPGs"
+  summary: "Pfau, J., Smeddinck, J. D., & Malaka, R. (2018, October). In *Proceedings of the 2018 Annual Symposium on Computer-Human Interaction in Play* (pp. 381-392)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3242671.3242706"
+  
+- name: "Bot or not? user perceptions of player substitution with deep player behavior models"
+  summary: "Pfau, J., Smeddinck, J. D., Bikas, I., & Malaka, R. (2020, April). In *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems* (pp. 1-10)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3313831.3376223"
+
+- name: "Enemy within: Long-term motivation effects of deep player behavior models for dynamic difficulty adjustment"
+  summary: "Pfau, J., Smeddinck, J. D., & Malaka, R. (2020, April). In *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems* (pp. 1-10)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3313831.3376423"
+
+- name: "Dungeons & Replicants: Automated Game Balancing via Deep Player Behavior Modeling"
+  summary: "Pfau, J., Liapis, A., Volkmar, G., Yannakakis, G. N., & Malaka, R. In *Proceedings of the 2020 IEEE Conference on Games*."
+  url: "http://www.antoniosliapis.com/papers/dungeons_and_replicants_automated_game_balancing_via_deep_player_behavior_modeling.pdf"
+
+- name: "Automated Game Testing with ICARUS: Intelligent Completion of Adventure Riddles via Unsupervised Solving"
+  summary: "Pfau, J., Smeddinck, J. D., & Malaka, R. (2017, October). In *Extended Abstracts Publication of the Annual Symposium on Computer-Human Interaction in Play* (pp. 153-164)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3130859.3131439"
+  
+- name: "Deep player behavior models: Evaluating a novel take on dynamic difficulty adjustment"
+  summary: "Pfau, J., Smeddinck, J. D., & Malaka, R. (2019, May). In *Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems* (pp. 1-6)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3290607.3312899"
+
+- name: "Give MEANinGS to Robots with Kitchen Clash: A VR Human Computation Serious Game for World Knowledge Accumulation"
+  summary: "Pfau, J., Porzel, R., Pomarlan, M., Cangalovic, V. S., Grudpan, S., Höffner, S., ... & Malaka, R. (2019, November). In *Joint International Conference on Entertainment Computing and Serious Games* (pp. 85-96). Springer, Cham."
+  url: "https://link.springer.com/chapter/10.1007/978-3-030-34644-7_7"
+
+- name: "Player Types and Achievements - Using Adaptive Game Design to Foster Intrinsic Motivation"
+  summary: "Volkmar, G., Pfau, J., Teise, R., & Malaka, R. (2019, October). In *Extended Abstracts of the Annual Symposium on Computer-Human Interaction in Play* (pp. 747-754)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3341215.3356278"
+
+- name: "Can You Rely on Human Computation? A Large-scale Analysis of Disruptive Behavior in Games With A Purpose"
+  summary: "Pfau, J., & Malaka, R. (2019, October). In *Extended Abstracts of the Annual Symposium on Computer-Human Interaction in Play * (pp. 605-610)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3341215.3356297"
+
+- name: "Do You Think This is a Game?"
+  summary: "Pfau, J., Smeddinck, J. D., Volkmar, G., Wenig, N., & Malaka, R. (2018, April). In *Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems* (pp. 1-6)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3170427.3188651"

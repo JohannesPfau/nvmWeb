@@ -1,0 +1,39 @@
+baseURL = "nevermindcreations.de"
+languageCode = "en-us"
+title = "Nevermind Creations"
+theme = "toha"
+
+enableEmoji = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+    unsafe = true
+
+  [markup.tableOfContents]
+  startLevel = 2.0
+  endLevel = 6.0
+  ordered = false
+
+[params]
+# Copyright Notice
+#copyright= "2020 Copyright Nevermind Creations."
+description = "Nevermind Creations. Johannes Pfau. Deep Player Behavior Modeling."
+enableBlogPost = false
+enableTOC = true
+
+[params.author]
+  name = "Nevermind Creations"
+  summary = [
+    "AI for Games.",
+    "Games for AI.",
+  ]
+	
+
+[params.author.contactInfo]
+email = "hello@nevermindcreations.de"
+
+  [[params.customMenus]]
+  name = "Scholar"
+  url = "https://scholar.google.de/citations?user=bzNu0ncAAAAJ&hl=de"
+  
