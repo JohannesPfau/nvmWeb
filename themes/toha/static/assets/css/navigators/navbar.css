@@ -19,12 +19,12 @@
 }
 
 .initial-navbar .navbar-brand {
-  color: #c0ccda;
+  color: #ffffff;
   font-weight: 600;
 }
 
 .initial-navbar li a {
-  color: #c0ccda;
+  color: #ffffff;
 }
 
 .initial-navbar .navbar-nav .active,
@@ -49,25 +49,25 @@
 /* --- state after scroll start --- */
 
 .final-navbar {
-  background-color: transparent;
+  background-color: rgba(50, 50, 50, 0.4);
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
 }
 
 .final-navbar .navbar-brand {
-  color: #c0ccda;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
   font-weight: 600;
 }
 
 .final-navbar li a {
-  color: #c0ccda;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
 }
 
 .final-navbar .navbar-nav .active,
 .final-navbar li a:hover {
-  color: #f9fafc;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
+  color: #fda50f;
 }
 
 .navbar-collapse.show li a,
