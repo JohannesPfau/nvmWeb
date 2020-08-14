@@ -1,2 +1,2 @@
 hugo -D
-cp -a /httpdocs/nvmWeb/public/. /httpdocs/
+cp -a httpdocs/nvmWeb/public/. httpdocs/
