@@ -1,0 +1,66 @@
+# section information
+section:
+  name: Applied Games
+  enable: true
+  weight: -70
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+cites:
+- title: "Give MEANinGS to Robots with Kitchen Clash:"
+  subtitle: "A VR Human Computation Serious Game for World Knowledge Accumulation"
+  reference: "Pfau, J., Porzel, R., Pomarlan, M., Cangalovic, V. S., Grudpan, S., Höffner, S., Bateman, J., & Malaka, R. (2019). In *Entertainment Computing and Serious Games: First IFIP TC 14 Joint International Conference, ICEC-JCSG 2019*."
+  url: "http://doi.org/10.1007/978-3-030-34644-7_7"
+
+
+- title: "Can You Rely on Human Computation?"
+  subtitle: "A Large-scale Analysis of Disruptive Behavior in Games With A Purpose"
+  reference: "Pfau, J., & Malaka, R. (2019, October). In *Extended Abstracts of the Annual Symposium on Computer-Human Interaction in Play Companion Extended Abstracts* (pp. 605-610)."
+  url: "https://doi.org/10.1145/3341215.3356297"
+
+- title: "We Asked 100 People:"
+  subtitle: "How Would You Train Our Robot?"
+  reference: "Pfau, J., & Malaka, R. (2020, November). In *Extended Abstracts of the 2020 Annual Symposium on Computer-Human Interaction in Play* (pp. 335-339)."
+  url: "https://doi.org/10.1145/3383668.3419864"
+
+- title: "Ontology-based Understanding of Everyday Activity Instructions"
+  subtitle: ""
+  reference: "Höffner, S., Porzel, R., Hedblom, M. M., Pomarlan, M., Cangalovic, V. S., Pfau, J., Bateman, J., & Malaka, R. (2021). In *Semantic Web*."
+  url: "https://doi.org/10.3233/SW-222973"
+
+- title: "Deep Understanding of Everyday Activity Commands for Household Robots"
+  subtitle: ""
+  reference: "Höffner, S., Porzel, R., Hedblom, M. M., Pomarlan, M., Cangalovic, V. S., Pfau, J., Bateman, J., & Malaka, R. (2022). In *Semantic Web*."
+  url: "https://doi.org/10.3233/SW-222973"
+
+
+- title: "Do You Think This is a Game?"
+  subtitle: "Contrasting a Serious Game with a Gamified Application for Health"
+  reference: "Pfau, J., Smeddinck, J. D., Volkmar, G., Wenig, N., & Malaka, R. (2018, April). In *Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems* (pp. 1-6)."
+  url: "https://doi.org/10.1145/3170427.3188651"
+  
+- title: "“I Didn’t Catch That, But I’ll Try My Best”:"
+  subtitle: "Anticipatory Error Handling in a Voice Controlled Game"
+  reference: "Zargham, N., Pfau, J., Schnackenberg, T., & Malaka, R. (2022, April). In *Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems* (pp. 1-13)."
+  url: "https://doi.org/10.1145/3491102.3502115"
+  
+- title: "Enhancing Game-Based Learning Through Infographics in the Context of Smart Home Security"
+  subtitle: ""
+  reference: "Bahrini, M., Zargham, N., Pfau, J., Lemke, S., Sohr, K., & Malaka, R. (2020). In *Entertainment Computing–ICEC 2020*."
+  url: "http://doi.org/10.1007/978-3-030-65736-9_2"
+
+- title: "Good vs. Evil:"
+  subtitle: "Investigating the Effect of Game Premise in a Smart Home Security Educational Game"
+  reference: "Bahrini, M., Zargham, N., Pfau, J., Lemke, S., Sohr, K., & Malaka, R. (2020, November). In *Extended Abstracts of the 2020 Annual Symposium on Computer-Human Interaction in Play* (pp. 182-187)."
+  url: "https://doi.org/10.1145/3383668.3419887"
+
+- title: "AstraVerse:"
+  subtitle: "Establishing a Culturally Sensitive Framework for Integrating Elements from Mythological Backgrounds"
+  reference: "Maram, S. S., Pfau, J., Habibi, R., & Seif El-Nasr, M. (2022, October).  In *International Conference on Entertainment Computing* (pp. 3-17)."
+  url: "https://doi.org/10.1007/978-3-031-20212-4_1"
+
+- title: "A Visual Ethnographic Study at Cultural Spaces to Identify Character Creation Opportunities"
+  subtitle: ""
+  reference: "Maram, S. S., Pfau, J., Dodechani, J. B., & Seif El-Nasr, M. (2023, April). In *Proceedings of the 18th International Conference on the Foundations of Digital Games*."
+  url: "https://doi.org/10.1145/3582437.3582445"

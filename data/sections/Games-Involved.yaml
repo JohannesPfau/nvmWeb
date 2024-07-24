@@ -1,0 +1,219 @@
+# section information
+section:
+  name: Games
+  enable: true
+  weight: -1000
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+games:
+
+- name: "Guild Wars 2"
+  img: "Gw2.png"
+  vid: "Gw2.webm"
+  studio: "ArenaNet"
+  year: 2012
+  description: "I am currently running Wingman, the largest endgame analytics platform for Guild Wars 2, which sparked a series of tools and studies anchored in a vast abundance of behavioral data and a close connection to the player community."
+  url: "https://www.guildwars2.com/"
+  cites: "7,8,9,10,11,14,18"
+  citeGOTO: "7"
+
+- name: "Aion"
+  img: "Aion.png"
+  vid: "AION.webm"
+  studio: "NCSoft"
+  year: 2009
+  description: "Working together with an AION Server, I was able to develop a custom daily dungeon that featured an individual DPBM replica end boss and DDA mechanics, before I utilized player models of a whole community for automated game balancing simulations."
+  url: "https://www.aiononline.com/"
+  cites: "2,4,5"
+  citeGOTO: "2"
+  
+- name: "Lineage II"
+  img: "L2.jpg"
+  vid: "L2.webm"
+  studio: "NCSoft"
+  year: 2003
+  description: "To accumulate initial, low-level player behavior data and benchmark DPBM accuracy and replayability, I recorded action patterns of Lineage II players and trained individual replicas from these."
+  url: "https://www.lineage2.com/"
+  cites: "1"
+  citeGOTO: "1"
+
+- name: "League of Legends"
+  img: "lol.jpg"
+  vid: "LoL.webm"
+  studio: "Riot Games"
+  year: 2009
+  description: "Being one of the most popular games of our times, LoL enabled a series of timely studies on play patterns, practice habits, and process visualization."
+  url: "https://www.leagueoflegends.com/"
+  cites: "20,28,29"
+  citeGOTO: "20"
+  
+- name: "Baldur's Gate 3"
+  img: "bg3.jpg"
+  vid: "BG3.webm"
+  studio: "Larian Studios"
+  year: 2023
+  description: "Damage mechanics become immensily complex with game titles rich in variety across equipment, actions, passives and other choices. Baldur's Gate 3 seemed to be an apt candidate to model, simulate and optimize in my work about co-creative damage optimization."
+  url: "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
+  cites: "8"
+  citeGOTO: "8"
+  
+- name: "Borderlands 3"
+  img: "bl3.jpg"
+  vid: "BL3.webm"
+  studio: "Gearbox Software"
+  year: 2019
+  description: "Damage mechanics become immensily complex with game titles rich in variety across equipment, actions, passives and other choices. Borderlands 3 seemed to be an apt candidate to model, simulate and optimize in my work about co-creative damage optimization."
+  url: "https://store.steampowered.com/app/397540/Borderlands_3/"
+  cites: "8"
+  citeGOTO: "8"
+  
+- name: "Fallout: New Vegas"
+  img: "FalloutNV.png"
+  vid: "FNV.webm"
+  studio: "Obsidian Entertainment"
+  year: 2010
+  description: "Using the Virtual Personality Assessment Lab (VPAL) mod to Fallout: New Vegas, me and my students investigated how to visualize player behavior patterns, extract meaningful differences, and predict the impact of personality."
+  url: "https://store.steampowered.com/app/22380/Fallout_New_Vegas/"
+  cites: "15,16,17,24"
+  citeGOTO: "15"
+  
+- name: "Anna's Quest"
+  img: "AnnasQuest.webp"
+  vid: "AQ.webm"
+  studio: "Daedalic Entertainment"
+  year: 2015
+  description: "During my work with Daedalic, I developed ICARUS, a Reinforcement Learning tool integrated into autonomous game testing routines for all in-house products generically."
+  url: "https://store.steampowered.com/app/327220/Annas_Quest/"
+  cites: "11"
+  citeGOTO: "11"
+  
+- name: "The Pillars of the Earth"
+  img: "POTE.jpg"
+  vid: "TPOTE.webm"
+  studio: "Daedalic Entertainment"
+  year: 2017
+  description: "During my work with Daedalic, I developed ICARUS, a Reinforcement Learning tool integrated into autonomous game testing routines for all in-house products generically."
+  url: "https://store.steampowered.com/app/234270/Ken_Folletts_The_Pillars_of_the_Earth/"
+  cites: "11"
+  citeGOTO: "11"
+  
+- name: "Deponia"
+  img: "Deponia.png"
+  vid: "Deponia.webm"
+  studio: "Daedalic Entertainment"
+  year: 2014
+  description: "During my work with Daedalic, I developed ICARUS, a Reinforcement Learning tool integrated into autonomous game testing routines for all in-house products generically."
+  url: "https://store.steampowered.com/app/292910/Deponia_The_Complete_Journey/"
+  cites: "11"
+  citeGOTO: "11"
+
+- name: "Korona:Nemesis"
+  img: "KN.png"
+  vid: "KN.webm"
+  studio: "Nevermind Creations"
+  year: 2019
+  description: "To assess whether players could differentiate heuristic bots from DPBM agents in online multiplayer games, I developed a projectile-based fighting game and published it on Steam."
+  url: "https://store.steampowered.com/app/1019740/KoronaNemesis/"
+  cites: "3,5"
+  citeGOTO: "3"
+
+- name: "Hades"
+  img: "Hades.webp"
+  vid: "HadesDZ.webm"
+  studio: "Supergiant Games"
+  year: 2020
+  description: "What would happen if the end boss after a long run of Hades is not your father, but your former self? We used DPBM to do exactly that!"
+  url: "https://store.steampowered.com/app/1145360/Hades/"
+  cites: ""
+  citeGOTO: ""
+    
+- name: "Super Mario Bros."
+  img: "smb.png"
+  vid: "SMB.webm"
+  studio: "Nintendo"
+  year: 1985
+  description: "As an all-time classic for speedrunning and games utilized for science, we modified feedback mechanisms in Super Mario Bros. and studied the impact on performance improvement."
+  url: ""
+  cites: "27"
+  citeGOTO: "27"
+  
+- name: "Mirror's Edge"
+  img: "ME.jpg"
+  vid: "ME.webm"
+  studio: "DICE"
+  year: 2008
+  description: "Mirror's Edge parcour time trials offer exciting challenges to best yourself and others - We looked into how mechanical affordances of such trials can be modeled and generated procedurally."
+  url: "https://store.steampowered.com/app/17410/Mirrors_Edge/"
+  cites: ""
+  citeGOTO: ""
+
+
+- name: "DNF Duel"
+  img: "dnf.jpg"
+  vid: "DNF.webm"
+  studio: "Arc System Works"
+  year: 2022
+  description: "Consisting of muscle memory, response selection and reaction pace, fighting game combos make up for a precise skill to study feedback mechanisms and training paradigms on."
+  url: "https://store.steampowered.com/app/1216060/DNF_Duel/"
+  cites: "30"
+  citeGOTO: "30"
+
+
+- name: "Kitchen Clash"
+  img: "KitchenClash.png"
+  vid: "KC.webm"
+  studio: "University of Bremen"
+  year: 2019
+  description: "Kitchen Clash is a human computation VR game I developed to record human decision making and movement trajectories for the robotic training database OpenEASE."
+  url: "https://www.open-ease.org/"
+  cites: "32,33,34,35,36"
+  citeGOTO: "32"
+
+- name: "Adaptify"
+  img: "adaptify.png"
+  vid: "Adaptify.webm"
+  studio: "University of Bremen"
+  year: 2018
+  description: "To harness the capabilities of games to sustain long-term motivation, we developed several applied games that helped patients staying tuned to their physical therapy."
+  url: "https://www.smeddinck.com/project/adaptify/"
+  cites: "37"
+  citeGOTO: "37"
+
+- name: "The Lux"
+  img: "lux.png"
+  vid: "LUX.webm"
+  studio: "UC Santa Cruz"
+  year: 2021
+  description: "Resilience is a core competence to a healthy and robust life, yet how to achieve or even measure this cleanly is still a challenge. Using ARGs, multi-modal measures, process mining and AI, we investigated how to quantify resilience in the wild."
+  url: "https://guiilab.ucsc.edu/resilience"
+  cites: "22,23,25,26"
+  citeGOTO: "22"
+
+
+- name: "Parallel"
+  img: "Parallel.jpg"
+  vid: "Parallel.webm"
+  studio: "Drexel University"
+  year: 2017
+  description: "How to program in a proper parallel fashion is a challenge we tackled within the Open Player Modeling project. Recorded behavior from play sessions of students furthermore revealed explanations for successful strategies and how failure patterns form."
+  url: "https://playparallel.com/"
+  cites: "14,17,18"
+  citeGOTO: "14"
+  
+- name: "Maniacs"
+  img: "Maniacs.png"
+  vid: "Maniacs.webm"
+  studio: "Nevermind Creations"
+  year: 2024
+  description: "A cooperative/competitive card game to escape from a mental asylum, fabricated with methods from generative AI."
+  url: ""
+  cites: ""
+  citeGOTO: ""
+
+#  ((Rainbow 6 Siege))
+#  ((Call of Duty))
+#  Sky: Children of the Light
+
+

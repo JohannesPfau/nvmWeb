@@ -1,0 +1,47 @@
+<div class="container-fluid anchor pb-1 experiences-section" id="{{ replace (lower .section.name) " " "-" }}" style="padding-top:15px;">
+<center>
+<table border=0>
+<tr>
+<td width="600"> <center>
+<img src="/images/_dpbmT.png" width="480">
+<!-- <iframe width="840" height="473" src="https://www.youtube.com/embed/KLqI52hWiZk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+</center>
+</td>
+<td width=20></td>
+<td width="828">
+<ul>
+<h5>
+<h2>Deep Player Behavior Modeling</h2>
+In my dissertation project about <i>Deep Player Behavior Modeling</i>, I extended the current state of the art of Imitation Learning by a new approach and several evaluations applied in ecologically valid environments. Up to then, most (generative) player modeling techniques were encompassing larger sets of players to represent something <i>believable</i>, <i>human-like</i> or behavior that would emerge in other unique ways. For the application cases in the following however, I highly emphasize the value of replicating <i>individual</i> playing styles.
+
+To realize this technique, atomic state-action pairs are recorded for all symbolic player inputs, so that game state, player state, target state and action history are mapped to a distribution among predicted following actions<a href="#ref1"><sup>1</sup></a>.
+
+This results in a player-like, continuously learning foe, of which game communities reported to recognize their own behavioral patterns and enjoyed the steadily spiraling challenge<a href="#ref2"><sup>2,6</sup></a>.
+
+It went even so far that, in online multiplayer sessions, players did <i>not</i> notice when disconnected fellow players were replaced with their individual substitutes<a href="#ref3"><sup>3</sup></a>.
+
+To scale it up, we showed that <i>DPBM</i> can also be used for large-scale automated balancing simulations to closely resemble a whole population of players<a href="#ref4"><sup>4,5</sup></a>.
+
+</h5></ul></td></tr></table></center>
+
+<center>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/NGPHs3alhhU?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/SU4dTUYZ2MY?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/-_yHoM0v9Nw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<table><tr><td>
+{{ $counter := 0 }}
+{{ range .cites }}
+	{{ $counter = add $counter 1 }}
+	  {{ if .url }}<a href="{{ .url }}" target="_blank" id="ref{{ $counter }}">{{end}}
+		<p class="card-text" style="margin-bottom:0.15cm;max-width:1300px;">
+		<sup>{{ $counter }}</sup> <b>{{ .title | markdownify }}</b>{{ if .subtitle }} {{ .subtitle }}{{ end }}.
+		{{ if .award }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🏆 <b><u>{{.award }}</u></b>{{ end }}<br>
+		&nbsp;&nbsp;&nbsp;{{ if ge $counter 10 }}&nbsp;{{ end }}{{ replace .reference  "Pfau, J." "**<u>Pfau, Johannes</u>**" | markdownify }} 
+		</p>
+	  {{ if .url }}</a>{{end}}
+{{ end }}
+</td></tr></table>
+</center>
+
+</div>

@@ -1,0 +1,52 @@
+<div class="container-fluid anchor pb-1 experiences-section" id="{{ replace (lower .section.name) " " "-" }}" style="padding-top:15px;">
+<center>
+<table border=0>
+<tr>
+<td width="600"> <center>
+<img src="/images/_applied.png" width="480">
+</center>
+<!-- <iframe width="840" height="473" src="https://www.youtube.com/embed/wbOoozO2Ztw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+</td>
+<td width=20></td>
+<td width="840">
+<ul>
+<h5>
+<h2>Applied Games</h2>
+Apart from entertainment games, I also developed games with a purpose, as well as tools, AI, and analytics for those. As outlined above, these aimed at detecting and quantifying resilience <a href="#ref23"><sup>23-27</sup></a>, sustaining intrinsic motivation for long-term physical therapy <a href="#ref38"><sup>38</sup></a>, or to accumulate human computation input about movement trajectories, tool preferences and contextual action selection for robotic knowledge databases <a href="#ref33"><sup>33-37</sup></a>. Apart from that, I assisted developing applied games for usable security <a href="#ref40"><sup>40-41</sup></a>, investigated repair strategies in voice control games or systems <a href="#ref39"><sup>39</sup></a>, and studied the intersection of religion and video games with my PhD student <a href="https://siddu1998.github.io/" target="_blank">Sai Siddartha Maram</a>: what topics are being in discussed in either community <a href="#ref19"><sup>19</sup></a>, how to draw affordances from mythological backgrounds <a href="#ref43"><sup>43</sup></a>, and how to do this in a culturally sensitive way <a href="#ref42"><sup>42</sup></a>.
+</h5></ul></td></tr></table></center>
+
+<center>
+<table>
+<tr>
+<td>
+<iframe style="display:inline; margin: 7px 3px 0px 0px;" width="420" height="315" src="https://www.youtube.com/embed/wbOoozO2Ztw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+</td>
+<td>
+<div onclick="playVid('luxTrailer', 'http://www.youtube.com/embed/viepEp1i6TU');" id="luxTrailer" style="display:inline; width: 420px; height: 315px;"><img src="/images/LuxTrailer.png" width="420" height="315" style="display: inline;"></div>
+</td>
+<td>
+<div onclick="playVid('CatchTrailer', 'http://www.youtube.com/embed/uvDzD_sF2rc');" id="CatchTrailer" style="display:inline; width: 420px; height: 315px;"><img src="/images/CatchTrailer.png" width="420" height="315" style="display: inline;"></div>
+</td>
+</tr></table>
+
+<script type="text/javascript">
+    function playVid(vidDiv, vidUrl){
+        document.getElementById(vidDiv).innerHTML = '<iframe width="420" height="315" src="'+vidUrl+'?autoplay=1" frameborder="0"></iframe>';
+    }
+</script>
+
+<table><tr><td>
+{{ $counter := 32 }}
+{{ range .cites }}
+	{{ $counter = add $counter 1 }}
+	  {{ if .url }}<a href="{{ .url }}" target="_blank" id="ref{{ $counter }}">{{end}}
+		<p class="card-text" style="margin-bottom:0.15cm;max-width:1300px;">
+		<sup>{{ $counter }}</sup> <b>{{ .title | markdownify }}</b>{{ if .subtitle }} {{ .subtitle }}{{ end }}.<br>
+		&nbsp;&nbsp;&nbsp;{{ if ge $counter 10 }}&nbsp;&nbsp;{{ end }}{{ replace .reference  "Pfau, J." "**<u>Pfau, Johannes</u>**" | markdownify }} 
+		</p>
+	  {{ if .url }}</a>{{end}}
+{{ end }}
+</td></tr></table>
+</center>
+
+</div>

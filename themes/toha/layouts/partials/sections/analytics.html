@@ -1,0 +1,40 @@
+<div class="container-fluid anchor pb-1 experiences-section" id="{{ replace (lower .section.name) " " "-" }}" style="padding-top:15px;">
+<center>
+<table border=0>
+<tr><td width="600"> <center>
+<img src="/images/_analytics.png" width="480">
+<!-- <iframe width="840" height="473" src="https://www.youtube.com/embed/tlt2MAi0TAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+</td>
+<td width=20></td>
+<td width="840">
+<ul>
+<h5>
+<h2>Game Analytics</h2>
+During my PhD, I discovered my passion for game data, which encouraged me to start the now largest platform for <i>Guild Wars 2</i> endgame content analytics: <a href="http://gw2wingman.nevermindcreations.de/" target="_blank">http://gw2wingman.nevermindcreations.de/</a><br>
+Primarly, I am interested in <i>player-driven</i> analytics, so tools, visualizations and reports that give insights about one's own performances, limitations, progress and more. For this, I compile manifold analytics from millions of combat logs directly derived in liaison with the player community that is longing for such feedback <a href="#ref7"><sup>7,11</sup></a>, deploy simulations and co-creative AI optimization <a href="#ref8"><sup>8,12</sup></a>, and assess and quantify tailored notions of <i>game balance</i><a href="#ref9"><sup>9,10</sup></a>.
+Such measures and insights are however equally valuable for game industrials<a href="#ref13"><sup>13</sup></a>. Using higher-level company data from hundreds and games and studios, I developed an interactive tool to scaffold an understanding of success factors among companies and titles: <a href ="https://ghs-gceko.ondigitalocean.app/" target="_blank">https://ghs-gceko.ondigitalocean.app/</a> <a href="#ref21"><sup>21,22</sup></a><br> 
+And, together with my PhD student <a href="https://sites.google.com/ucsc.edu/zhaoqingteng-website/" target="_blank">Zhaoqing "Jimmy" Teng</a>, we brought process mining to game analytics, making sense of the contextual information between sequences of game actions or events, and how to interact, interpret and understand these visualizations: <a href="https://inspect.nevermindcreations.de/GuildWar2/gorKjan.5019-1-dhuum-Reaper-logs-2024-03-13T171734.079Z.csv" target="_blank">https://inspect.nevermindcreations.de/</a> <a href="#ref14"><sup>14-18</sup></a>.
+
+</h5></ul></td></tr></table></center>
+
+<center>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/tlt2MAi0TAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/6YWbTMDBz3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/_58xlUUp9BE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<table><tr><td>
+{{ $counter := 6 }}
+{{ range .cites }}
+	{{ $counter = add $counter 1 }}
+	  {{ if .url }}<a href="{{ .url }}" target="_blank" id="ref{{ $counter }}">{{end}}
+		<p class="card-text" style="margin-bottom:0.15cm;max-width:1300px">
+		<sup>{{ $counter }}</sup> <b>{{ .title | markdownify }}</b>{{ if .subtitle }} {{ .subtitle }}{{ end }}.
+		{{ if .award }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🏆 <b><u>{{.award }}</u></b>{{ end }}<br>
+		&nbsp;&nbsp;&nbsp;{{ if ge $counter 10 }}&nbsp;&nbsp;{{ end }}{{ replace .reference  "Pfau, J." "**<u>Pfau, Johannes</u>**" | markdownify }} 
+		</p>
+	  {{ if .url }}</a>{{end}}
+{{ end }}
+</td></tr></table>
+</center>
+
+</div>

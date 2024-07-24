@@ -1,0 +1,136 @@
+<style>
+.image {
+	position: relative;
+	width: 356px;
+	display: inline;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.image__img {
+	display: inline;
+	width: 356px;
+	padding-bottom: 4px;
+}
+
+.image__vid {
+	position: absolute;
+	display: none;
+	width: 356px;
+	left: 00px;
+	padding-bottom: 4px;
+	top: -90px;
+}
+
+.image__overlay {
+	position: absolute;
+	top: -90px;
+	left: 0;
+	width: 356px;
+	height: 200px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+	backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+}
+
+.image__overlay>* {
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+	opacity: 1;
+}
+
+.image__overlay:hover>* {
+	transform: translateY(0);
+}
+
+.image__title {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.image__description {
+	font-size: 1em;
+	color: #ffffff;
+}
+
+</style>
+
+<script>
+function playAll() {
+	const slides = document.getElementsByClassName("image__vid");
+	for (let i = 0; i < slides.length; i++) {
+		slides.item(i).style.display = 'inline';
+		slides.item(i).play();
+	}
+	document.getElementById("playAll").style.display = 'none';
+	document.getElementById("pauseAll").style.display = 'inline';
+}
+
+function pauseAll() {
+	const slides = document.getElementsByClassName("image__vid");
+	for (let i = 0; i < slides.length; i++) {
+		slides.item(i).style.display = 'none';
+		slides.item(i).pause();
+	}
+	document.getElementById("playAll").style.display = 'inline';
+	document.getElementById("pauseAll").style.display = 'none';
+}
+</script>
+
+<div class="container-fluid anchor pb-1 experiences-section" id="{{ replace (lower .section.name) " " "-" }}" style="padding-top:15px;">
+  {{ if not (.section.hideTitle) }}
+    <h1 class="text-center">Games Involved</h1>
+  {{ end }}
+
+  <center>
+	Titles in which some of my work took place.<br><br>
+
+{{ range .games }}
+  <div class="image">
+	<img class="image__img" src="/images/{{ .img }}" width="350">
+    {{ if .vid }}<video class="image__vid" loop muted playsinline><source src="/vids/{{.vid}}" type="video/webm" /></video>{{ else }}<span></span>{{end}}
+	<div class="image__overlay image__overlay--primary" 
+	{{ if .imgBack }}onmouseover="this.previousElementSibling.previousElementSibling.src='/images/{{ .imgBack }}'" onMouseOut="this.previousElementSibling.previousElementSibling.src='/images/{{ .img }}'"{{ else }}
+	{{ if .vid }}onmouseover="this.previousElementSibling.style.display='inline'; this.previousElementSibling.play();" onMouseOut="
+	if(document.getElementById('pauseAll').style.display == 'none') { this.previousElementSibling.style.display='none';  this.previousElementSibling.pause();}"{{ end }}{{ end }}
+	>
+		<div class="image__title">
+		{{ if .url }}<a href="{{.url}}" target="_blank" style="color:#ffffff">{{ end }}
+		{{ .name }}
+		{{ if .url }}</a>{{ end }}
+		</div>
+			<p class="image__description">
+				({{ .studio }}, {{ .year }}) <br>
+			</p>
+			<center>
+			<font style="font-size: 0.75em;">
+				{{ .description }}
+				{{ if .citeGOTO }}<a href="#ref{{.citeGOTO}}">{{ end }}
+				<sup>{{ .cites }}</sup>
+				{{ if .citeGOTO }}</a>{{ end }}
+			</font>
+			</center>
+		</div>
+	</div>
+{{ end }}
+<a onclick="playAll();" id="playAll"><font size=2><br><u>Click here for action</u></font></a>
+<a onclick="pauseAll();" id="pauseAll" style="display:none;"><font size=2><br><u>Stop</u></font></a>
+  </center>
+</div>
+

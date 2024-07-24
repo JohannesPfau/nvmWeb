@@ -1,0 +1,39 @@
+# section information
+section:
+  name: Player Modeling
+  enable: true
+  weight: -100
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+cites:
+- title: "Towards Deep Player Behavior Models in MMORPGs"
+  reference: "Pfau, J., Smeddinck, J. D., & Malaka, R. (2018, October). In *Proceedings of the 2018 Annual Symposium on Computer-Human Interaction in Play* (pp. 381-392)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3242671.3242706"
+  
+- title: "Enemy Within:"
+  subtitle: "Long-term Motivation Effects of Deep Player Behavior Models for Dynamic Difficulty Adjustment"
+  reference: "Pfau, J., Smeddinck, J. D., & Malaka, R. (2020, April). In *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems* (pp. 1-10)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3313831.3376423"
+  
+- title: "Bot or Not?"
+  subtitle: "User Perceptions of Player Substitution with Deep Player Behavior Models"
+  reference: "Pfau, J., Smeddinck, J. D., Bikas, I., & Malaka, R. (2020, April). In *Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems* (pp. 1-10)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3313831.3376223"
+
+- title: "Dungeons & Replicants:"
+  subtitle: "Automated Game Balancing via Deep Player Behavior Modeling"
+  reference: "Pfau, J., Liapis, A., Volkmar, G., Yannakakis, G. N., & Malaka, R. In *Proceedings of the 2020 IEEE Conference on Games*."
+  url: "https://doi.org/10.1109/CoG47356.2020.9231958"
+  award: "Best Paper Finalist"
+  
+- title: "Dungeons & Replicants II:"
+  subtitle: "Automated Game Balancing across Multiple Difficulty Dimensions via Deep Player Behavior Modeling"
+  reference: "Pfau, J., Liapis, A., Yannakakis, G. N., & Malaka, R. In *IEEE Transactions on Games, 15(2)* (pp. 217-227)."
+  url: "https://doi.org/10.1109/TG.2022.3167728"
+  
+- title: "Deep Player Behavior Models:"
+  subtitle: "Evaluating a Novel Take on Dynamic Difficulty Adjustment"
+  reference: "Pfau, J., Smeddinck, J. D., & Malaka, R. (2019, May). In *Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems* (pp. 1-6)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3290607.3312899"

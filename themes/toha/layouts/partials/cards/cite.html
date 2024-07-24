@@ -1,0 +1,6 @@
+  <a href="{{ .url }}" target="_blank" id="ref{{ .nr }}">
+	<p class="card-text" style="margin-bottom:0.15cm;">
+	<sup>{{ .nr }}</sup> <b>{{ .title | markdownify }}</b>{{ if .subtitle }} {{ .subtitle }}{{ end }}.<br>
+	&nbsp;&nbsp;&nbsp;{{ if ge .nr 10 }}&nbsp;{{ end }}{{ replace .reference  "Pfau, J." "**<u>Pfau, Johannes</u>**" | markdownify }} 
+	</p>
+  </a>

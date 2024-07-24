@@ -1,0 +1,60 @@
+# section information
+section:
+  name: Psychology of Play
+  enable: true
+  weight: -80
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+cites:
+- title: "A Data-Driven Design of AR Alternate Reality Games to Measure Resilience"
+  subtitle: ""
+  reference: "Habibi, R., Maram, S. S., Pfau, J., Wei, J., Sisodiya, S. K., Kashani, A., Carstensdottir, E., & Seif El-Nasr, M. (2022, June). In *International Conference on Human-Computer Interaction* (pp. 586-604)."
+  url: "https://doi.org/10.1007/978-3-031-05637-6_38"
+  award: "Best Paper"
+
+- title: "Under Pressure:"
+  subtitle: "A Multi-Modal Analysis of Induced Stressors in Games for Resilience"
+  reference: "Habibi, R., Pfau, J., Maram, S. S., Li, J., Larsen, B., Xu, J., ... & El-Nasr, M. S. (2023, April). In *Proceedings of the 18th International Conference on the Foundations of Digital Games* (pp. 1-10)."
+  url: "https://doi.org/10.1145/3582437.3582474"
+
+- title: "Modeling Player Personality Factors from In-Game Behavior and Affective Expression"
+  subtitle: ""
+  reference: "Habibi, R., Pfau, J., & El-Nasr, M. S. (2023, September). In *2023 11th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)* (pp. 1-8). IEEE."
+  url: "https://doi.org/10.48550/arXiv.2308.14224"
+
+- title: "Assessing the Impact of Personality on Affective States from Video Game Communication"
+  subtitle: ""
+  reference: "Kashani, A., Pfau, J., & El-Nasr, M. S. (2023, September). In *2023 11th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)* (pp. 1-7). IEEE."
+  url: "https://doi.org/10.48550/arXiv.2309.13214"
+
+- title: "Empathetic AI for Empowering Resilience in Games"
+  subtitle: ""
+  reference: "Habibi, R., Pfau, J., Holmes, J., & El-Nasr, M. S. (2023). In *EXAG Workshop, 2023 AAAI Conference on AI for Interactive Digital Entertainment*"
+  url: "https://doi.org/10.48550/arXiv.2302.09070"
+
+- title: "Low Latency Feedback:"
+  subtitle: "Contrasting Training Outcomes of Immediate versus Delayed Feedback in Speedrunning Super Mario Bros"
+  reference: "Bikas, I., Pfau, J., Muender, T., & Malaka, R. (2024, October). In *Proceedings of the ACM on Human-Computer Interaction, (CHI PLAY)*"
+  url: "https://doi.org/10.1145/3677087"
+
+- title: "Mental Wear and Tear:"
+  subtitle: "An Exploratory Study on Mental Fatigue in Video Games Using the Example of League of Legends"
+  reference: "Bikas, I., Pfau, J., Dänekas, B., & Malaka, R. (2022, October). In *International Conference on Entertainment Computing* (pp. 125-139)."
+  url: "https://doi.org/10.1007/978-3-031-20212-4_10"
+
+- title: "Grinding to a Halt:"
+  subtitle: "The Effects of Long Play Sessions on Player Performance in Video Games."
+  reference: "Bikas, I., Pfau, J., Muender, T., Alexandrovsky, D., & Malaka, R. (2023, October). In *Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play* (pp. 36-42)."
+  url: "https://doi.org/10.1145/3573382.3616073"
+
+- title: "Space Out Gaming:"
+  subtitle: "Comparing Distributed Practice Sessions with Massed Play"
+  reference: "Bikas, I., Pfau, J., Muender, T., & Malaka, R. (2024, May). In Proceedings of the 19th International Conference on the Foundations of Digital Games (pp. 1-4)."
+  url: "https://doi.org/10.1145/3649921.3656985"
+
+- title: "Player Types and Achievements --"
+  subtitle: "Using Adaptive Game Design to Foster Intrinsic Motivation"
+  reference: "Volkmar, G., Pfau, J., Teise, R., & Malaka, R. (2019, October). In Extended Abstracts of the Annual Symposium on Computer-Human Interaction in Play Companion Extended Abstracts (pp. 747-754)."
+  url: "https://doi.org/10.1145/3341215.3356278"

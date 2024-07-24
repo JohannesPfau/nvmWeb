@@ -1,0 +1,83 @@
+# section information
+section:
+  name: Collabs
+  enable: true
+  weight: 10
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+collabs:
+- img: "Daedalic.png"
+  url: "https://www.daedalic.com/"
+
+- img: "Activision.svg.png"
+  url: "https://www.activision.com/"
+  
+- img: "ubisoft.png"
+  url: "https://www.ubisoft.com/"
+
+- img: "tgc.png"
+  url: "https://thatgamecompany.com/"
+
+- img: "GHS.png"
+  url: "https://gamehubdenmark.com/ghs2"
+  
+- img: "VWN.png"
+  url: "https://www.volkswagen-nutzfahrzeuge.de/"
+
+- img: "CRA.webp"
+  url: "https://cra.com/"
+
+
+
+collabsUni:
+- img: "UU.png"
+  url: "https://www.uu.nl/"
+  
+- img: "UCSC.png"
+  url: "https://www.ucsc.edu/"
+  
+- img: "Universität_Bremen.svg.png"
+  url: "https://www.uni-bremen.de/"
+
+- img: "RDA.png"
+  url: "https://royaldanishacademy.com/en"
+  
+- img: "UMalta.png"
+  url: "https://www.um.edu.mt/"
+
+- img: "Northeastern.png"
+  url: "https://www.northeastern.edu/"
+
+- img: "JKU.png"
+  url: "https://www.jku.at/"
+
+- img: "ITU.png"
+  url: "https://en.itu.dk/"
+
+- img: "NYU.png"
+  url: "https://www.nyu.edu/"
+
+- img: "UHCL.png"
+  url: "https://www.uhcl.edu/"
+
+- img: "UCF.png"
+  url: "https://www.ucf.edu/"
+
+- img: "Drexel-logo.png"
+  url: "https://drexel.edu/"
+
+- img: "WISC.png"
+  url: "https://www.wisc.edu/"
+  
+- img: "IU.png"
+  url: "https://www.iu.edu/"
+
+
+# Ubisoft
+
+#	Northeastern [2]
+#	Malta [7]
+#	RDA [8]
+#	OPM + SC [9]

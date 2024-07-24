@@ -1,0 +1,84 @@
+# section information
+section:
+  name: Analytics
+  enable: true
+  weight: -90
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+cites:
+- title: "Player-Driven Game Analytics:"
+  subtitle: "The Case of Guild Wars 2"
+  reference: "Pfau, J., & Seif El-Nasr, M. (2023, April). In *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems* (pp. 1-14)."
+  url: "https://dl.acm.org/doi/abs/10.1145/3242671.3242706"
+  award: "Honorable Mention"
+
+- title: "Damage Optimization in Video Games:"
+  subtitle: "A Player-Driven Co-Creative Approach"
+  reference: "Pfau, J., Charan, M., Kleinman, E., & Seif El-Nasr, M. (2024, May). In *Proceedings of the CHI Conference on Human Factors in Computing Systems* (pp. 1-16)."
+  url: "https://doi.org/10.1145/3613904.3642643"
+
+- title: "On Video Game Balancing:"
+  subtitle: "Joining Player-and Data-Driven Analytics"
+  reference: "Pfau, J., & Seif El-Nasr, M. (2023). In *ACM Games: Research and Practice*."
+  url: "https://doi.org/10.1145/3675807"
+  
+- title: "Balancing Video Games:"
+  subtitle: "A Player-Driven Instrument"
+  reference: "Pfau, J., & Seif El-Nasr, M. (2023, October). In *Companion Proceedings of the Annual Symposium on Computer-Human Interaction in Play* (pp. 187-195)."
+  url: "https://doi.org/10.1145/3573382.3616097"
+  
+- title: "The Real MVP:"
+  subtitle: "Quantifying Individual Performances in Multiplayer Online Games"
+  reference: "Pfau, J. (2024, August). In *2024 IEEE Conference on Games (CoG)* (pp. 1-8). IEEE."
+
+
+- title: "Automated Game Testing with ICARUS:"
+  subtitle: "Intelligent Completion of Adventure Riddles via Unsupervised Solving"
+  reference: "Pfau, J., Smeddinck, J. D., & Malaka, R. (2017, October). In *Extended Abstracts Publication of the Annual Symposium on Computer-Human Interaction in Play*."
+  url: "https://dl.acm.org/doi/abs/10.1145/3130859.3131439"
+  
+- title: "The Case for Usable AI:"
+  subtitle: "What Industry Professionals Make of Academic AI in Video Games"
+  reference: "Pfau, J., Smeddinck, J. D., & Malaka, R. (2020, November). In *Extended abstracts of the 2020 annual symposium on computer-human interaction in play* (pp. 330-334)."
+  url: "http://doi.acm.org/10.1145/3130859.3131439"
+
+- title: "Player Segmentation with INSPECT:"
+  subtitle: "Revealing Systematic Behavior Differences within MMORPG and Educational Game Case Studies"
+  reference: "Teng, Z., Pfau, J., Maram, S. S., & Seif El-Nasr, M. (2022, November). In *Extended Abstracts of the 2022 Annual Symposium on Computer-Human Interaction in Play*."
+  url: "https://doi.org/10.1145/3505270.3558340"
+
+- title: "Interactive Player Journeys:"
+  subtitle: "Co-designing a Process Visualization System to Video Game Analytics"
+  reference: "Teng, Z., Pfau, J., Maram, S. S., & Seif El-Nasr, M. (2024, May). In *Proceedings of the 19th International Conference on the Foundations of Digital Games* (pp. 1-11)."
+  url: "https://doi.org/10.1145/3649921.3650000"
+  
+- title: "Identifying Player Strategies through Segmentation:"
+  subtitle: "An Interactive Process Visualization Approach"
+  reference: "Teng, Z., Holmes, J., Dominguez, F., Pfau, J., Escarce Junior, M., & Seif El-Nasr, M. (2024, November). In *Joint International Conference on Serious Games*."
+  
+- title: "Visualization-based Iterative Segmentation to Augment Video Game Analytics"
+  reference: "Teng, Z., Pfau, J., & El-Nasr, M. S. (2023, August). In *2023 IEEE Conference on Games (CoG)* (pp. 1-2). IEEE."
+  url: "https://doi.org/10.1109/CoG57401.2023.10333151"
+  
+- title: "Mining Player Behavior Patterns from Domain-Based Spatial Abstraction in Games"
+  reference: "Maram, S. S., Pfau, J., Villareale, J., Teng, Z., Zhu, J., & El-Nasr, M. S. (2023, August). In *2023 IEEE Conference on Games (CoG)* (pp. 1-8). IEEE."
+  url: "https://doi.org/10.1109/CoG57401.2023.10333224"
+
+- title: "A Topic Modeling Approach Towards Understanding the Discourse on Religion and Video Games"
+  reference: "Maram, S.S., Pfau, J., Kajar, M.R., & Seif El-Nasr, M. (2024, October). In *Proceedings of the ACM on Human-Computer Interaction, (CHI PLAY)*"
+  url: "https://doi.org/10.1145/3677054"
+
+- title: "“Trust the Process”"
+  subtitle: "Examining the Impact of Process Visualizations for Self-Reflection in League of Legends"
+  reference: "Kleinman, E., Xu, J., Pfau, J., & El-Nasr, M. S. (2024, October). In *Proceedings of the ACM on Human-Computer Interaction, (CHI PLAY)*"
+  
+- title: "Predicting Success Factors of Video Game Titles and Companies"
+  reference: "Pfau, J., Debus, M., Juul, J., Lundedal Hammar, E., Canossa, A., & Seif El-Nasr, M. (2022, October). In *International Conference on Entertainment Computing*."
+  url: "https://doi.org/10.1007/978-3-031-20212-4_22"
+
+- title: "From Teams to Games"
+  subtitle: "Connecting Game Development to Game Characteristics"
+  reference: "Lundedal Hammar, E., Canossa, A., Debus, M. S., Pfau, J., Seif El-Nasr, M., Juul, J., & Azadvar, A. (2023, July). In *International Conference on Human-Computer Interaction*."
+  url: "https://doi.org/10.1007/978-3-031-48050-8_23"

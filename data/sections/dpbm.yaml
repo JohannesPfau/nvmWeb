@@ -1,8 +1,0 @@
-# section information
-section:
-  name: DPBM
-  enable: true
-  weight: 0
-  showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true 
