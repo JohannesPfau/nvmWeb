@@ -51,6 +51,8 @@
     </div>
   </div>
   -->
+  
+<div class="desktopOnly">
   <div class="container">
     <div class="row text-left">
       <div class="col-md-4">
@@ -60,19 +62,21 @@
       </div>
 	  <div class="col-md-4 text-center">Contact: <a id="contact" href="mailto:hello@nevermindcreations.de" target="#">hello@nevermindcreations.de</a></div>
       <div class="col-md-4 text-right">{{ if .Site.Params.copyright }}{{.Site.Params.copyright }}{{ else }}©2015-2024 Nevermind Creations.{{ end }}</div>
-      <!--
-	  
-	  <div class="col-md-4 text-right">
-        <a id="hugo" href="https://gohugo.io/">Powered by Hugo
-        <img
-          src="/assets/images/hugo-logo-wide.svg"
-          alt="Hugo Logo"
-          height="18"
-        />
-        </a>
-      </div>
-	  -->
     </div>
   </div>
+</div>
+<div class="mobileOnly">
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-md-4 text-center">
+        <a id="theme" href="mailto:hello@nevermindcreations.de" target="#"><img src="/assets/images/inverted-logo.png"></a><br>
+        Johannes Pfau. <font size=1>Eichenkamp 12, D-31319.</font>
+      </div>
+	  <br>
+	  <div class="col-md-4 text-center"><a id="contact" href="mailto:hello@nevermindcreations.de" target="#">hello@nevermindcreations.de</a></div>
+      <div class="col-md-4 text-center">{{ if .Site.Params.copyright }}{{.Site.Params.copyright }}{{ else }}<font size=2>©2015-2024 Nevermind Creations.</font>{{ end }}</div>
+    </div>
+  </div>
+</div>
   
 </footer>

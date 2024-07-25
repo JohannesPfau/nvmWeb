@@ -1,23 +1,19 @@
-<table><tr><td width="1920">
+<div class="container-fluid anchor pb-3 experiences-section" id="{{ replace (lower .section.name) " " "-" }}" style="padding-top:15px;">
+	<div class='parent'>
+	<center>
+		<div class="child"> 
+			<img class="colImg" src="/images/_jo.png">
+		</div>
 
-<center>
-<table border=0>
-<tr>
-<td width="600"> 
-<center>
-<img src="/images/_jo.png" width="480">
-</center>
-</td>
-<td width=20></td>
-<td width="828">
-<h2>Hey, I'm Jo!</h2>
-I'm a researcher (currently: <a href="https://www.uu.nl/staff/JPfau" target="_blank">Assistant Professor @UU</a>) passionate about (video) games, AI, data <span class="spoiler">(and octopi)</span>.<br>
-Scroll through my page to see some showcases of my work for industry and academia.<br>
-For questions or collaborations, don't hesitate to <a href="#contact">reach out</a>!
-</td></tr></table>
-
-</center>
-</td></tr></table>
+		<div class="child" style="padding: 0rem 1rem;">
+		<h2>Hey, I'm Jo!</h2>
+		I'm a researcher (currently: <a href="https://www.uu.nl/staff/JPfau" target="_blank">Assistant Professor @UU</a>) passionate about (video) games, AI, data <span class="spoiler">(and octopi)</span>.
+		Scroll through my page to see some showcases of my work for industry and academia.<br>
+		For questions or collaborations, don't hesitate to <a href="#contact">reach out</a>!
+		</div>
+	</center>
+	</div>
+</div>
 
 <style>
 .spoiler { 
@@ -27,5 +23,75 @@ For questions or collaborations, don't hesitate to <a href="#contact">reach out<
 
 .spoiler:hover, .spoiler:hover a {
   color: white;
+}
+.parent {
+  text-align: center;
+  margin: auto;
+}
+
+.colImg {
+	  max-width: 480px;
+	  padding: 1rem 0rem;
+	  vertical-align: bottom;
+}
+
+@media (max-width : 1000px) {
+	.colImg {
+	  max-width: 100%;
+	  padding: 1rem 0rem;
+	  vertical-align: bottom;
+	}
+}
+
+.child {
+	  vertical-align: middle;
+	  margin-top: 0px;
+	  display: inline-block;
+	  text-align: left;
+	  max-width: 45%;
+	  padding: 0rem 1rem;
+	}
+
+@media (max-width : 1000px) {
+	.child {
+	  margin-top: 0px;
+	  display: inline-block;
+	  text-align: left;
+	  max-width: 100%;
+	  padding: 0rem 1rem;
+	}
+}
+
+
+.vid3 {
+	  width: 420px;
+	  height: 315px;
+}
+
+@media (max-width : 1000px) {
+	.vid3 {
+		  width: 90%;
+		  height: 50%;
+	}
+}
+
+.mobileOnly {
+	display: none;
+}
+
+@media (max-width : 1000px) {
+	.mobileOnly {
+		display: inline;
+	}
+}
+
+.desktopOnly {
+	display: inline;
+}
+
+@media (max-width : 1000px) {
+	.desktopOnly {
+		display: none;
+	}
 }
 </style>

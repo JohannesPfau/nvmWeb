@@ -1,35 +1,39 @@
 <div class="container-fluid anchor pb-1 experiences-section" id="{{ replace (lower .section.name) " " "-" }}" style="padding-top:15px;">
-<center>
-<table border=0>
-<tr>
-<td width="600"> <center>
-<img src="/images/_psychT.png" width="480">
-</center>
-</td>
-<td width=20></td>
-<td width="828">
-<h2>Psychology of Play</h2>
-What good comes from data alone if it does not push us to further understand ourselves?<br>
-Together with my PhD students of the <a href="https://guiilab.ucsc.edu/resilience" target="_blank">Lux</a> project, I investigated in how far we can measure <i>resilience</i>, the core competence of bouncing back from life's struggles and adversities, using in-game activity and communication data. We built multiple Alternate Reality games to derive collaborative problem solving solutions <a href="#ref23"><sup>23</sup></a>, investigate the applicability of different stressor types <a href="#ref24"><sup>24</sup></a>, attributed for differences in personality <a href="#ref26"><sup>26</sup></a>, and envisioned intervention mechanisms based on emotion regulation and coping strategies <a href="#ref27"><sup>27</sup></a>. 
-On another note, I revealed the often unhealthy practice patterns of esports players together with my PhD student Ioannis Bikas <a href="#ref29"><sup>29-30</sup></a>, which besides physical strain and afflictions can also cause training-inhibiting <i>mental fatigue</i>, before looking into alternative feedback mechanisms and schedules <a href="#ref28"><sup>28,31</sup></a>.
-Eventually, player personality can not only be predictive <a href="#ref26"><sup>26</sup></a>, but also being predicted by in-game choices and play styles <a href="#ref25"><sup>25</sup></a>, which we furthermore utilized to tailor game mechanics to the very player, as a catalyst for increased intrinsic motivation <a href="#ref32"><sup>32</sup></a>.
-</td></tr></table></center>
+<div class='parent'>
+	<div class="child">
+		<img class="colImg" src="/images/_psychT.png">
+	</div>
+	
+	<div class="child">
+		<h2>Psychology of Play</h2>
+		What good comes from data alone if it does not push us to further understand ourselves?<br>
+		Together with my PhD students of the <a href="https://guiilab.ucsc.edu/resilience" target="_blank">Lux</a> project, I investigated in how far we can measure <i>resilience</i>, the core competence of bouncing back from life's struggles and adversities, using in-game activity and communication data. We built multiple Alternate Reality games to derive collaborative problem solving solutions <a href="#ref23"><sup>23</sup></a>, investigate the applicability of different stressor types <a href="#ref24"><sup>24</sup></a>, attributed for differences in personality <a href="#ref26"><sup>26</sup></a>, and envisioned intervention mechanisms based on emotion regulation and coping strategies <a href="#ref27"><sup>27</sup></a>. 
+		On another note, I revealed the often unhealthy practice patterns of esports players together with my PhD student Ioannis Bikas <a href="#ref29"><sup>29-30</sup></a>, which besides physical strain and afflictions can also cause training-inhibiting <i>mental fatigue</i>, before looking into alternative feedback mechanisms and schedules <a href="#ref28"><sup>28,31</sup></a>.
+		Eventually, player personality can not only be predictive <a href="#ref26"><sup>26</sup></a>, but also being predicted by in-game choices and play styles <a href="#ref25"><sup>25</sup></a>, which we furthermore utilized to tailor game mechanics to the very player, as a catalyst for increased intrinsic motivation <a href="#ref32"><sup>32</sup></a>.
+	</div>
+</div>
 <br>
-<center>
 
-<table><tr><td>
+<center>
+<table>
 {{ $counter := 22 }}
 {{ range .cites }}
 	{{ $counter = add $counter 1 }}
+	<tr style="line-height:1.2em; {{if .award }} background-color: #dddddd;{{ end }}">	
+	<td style="vertical-align: top;">
+	{{ if .award }}</td><td>🏆 {{.award }}:</td></tr><tr style="line-height:1.2em; background-color: #dddddd;"><td style="vertical-align: top;">{{ end }}
+
+	<sup>{{ $counter }} </sup> 
+	</td><td>
 	  {{ if .url }}<a href="{{ .url }}" target="_blank" id="ref{{ $counter }}">{{end}}
 		<p class="card-text" style="margin-bottom:0.15cm;max-width:1300px;">
-		<sup>{{ $counter }}</sup> <b>{{ .title | markdownify }}</b>{{ if .subtitle }} {{ .subtitle }}{{ end }}.
-		{{ if .award }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🏆 <b><u>{{.award }}</u></b>{{ end }}<br>
-		&nbsp;&nbsp;&nbsp;{{ if ge $counter 10 }}&nbsp;&nbsp;{{ end }}{{ replace .reference  "Pfau, J." "**<u>Pfau, Johannes</u>**" | markdownify }} 
+		<b>{{ .title | markdownify }}</b>{{ if .subtitle }} {{ .subtitle }}{{ end }}. <br>
+		{{ replace .reference  "Pfau, J." "**<u>Pfau, Johannes</u>**" | markdownify }} 
 		</p>
 	  {{ if .url }}</a>{{end}}
+	  </td><td></tr>
 {{ end }}
-</td></tr></table>
+</table>
 </center>
 
 </div>

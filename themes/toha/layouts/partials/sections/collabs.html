@@ -1,3 +1,28 @@
+<style>
+.collTable {
+	  display:inline; 
+	  padding: 25px 25px 25px 25px;
+	}
+
+@media (max-width : 1000px) {
+	.collTable {
+	  display:inline; 
+	  padding: 5px 5px 5px 5px;
+	}
+}
+.collImg {
+	max-height: 50px; 
+	max-width: 200px;
+}
+
+@media (max-width : 1000px) {
+	.collImg {
+		max-height: 50px; 
+		max-width: 100px;
+	}
+}
+</style>
+
 <div class="container-fluid anchor pb-5 experiences-section" id="{{ replace (lower .section.name) " " "-" }}" style="padding-top:15px;">
   {{ if not (.section.hideTitle) }}
     <h1 class="text-center">Collaborations</h1>
@@ -7,17 +32,17 @@
 	Companies and research instutions I worked with and for.<br><br>
 
 {{ range .collabs }}
-<table style="display:inline; padding: 25px 25px 25px 25px"><tr><td valign="middle" height=50>
+<table class="collTable"><tr><td valign="middle" height=50>
 	{{ if .url }}<a href="{{.url}}" target="_blank" style="color:#ffffff;">{{ end }}
-	<img src="/images/{{ .img }}" style="max-height: 50px; max-width:200px">
+	<img src="/images/{{ .img }}" class="collImg">
 	{{ if .url }}</a>{{ end }}
 	</td></tr></table>
 {{ end }}
 <br>
 {{ range .collabsUni }}
-<table style="display:inline; padding: 25px 25px 25px 25px"><tr><td valign="middle" height=50>
+<table class="collTable"><tr><td valign="middle" height=50>
 	{{ if .url }}<a href="{{.url}}" target="_blank" style="color:#ffffff;">{{ end }}
-	<img src="/images/{{ .img }}" style="max-height: 50px; max-width:200px">
+	<img src="/images/{{ .img }}" class="collImg">
 	{{ if .url }}</a>{{ end }}
 	</td></tr></table>
 {{ end }}
