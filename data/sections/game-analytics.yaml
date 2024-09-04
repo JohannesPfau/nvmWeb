@@ -73,6 +73,7 @@ cites:
 - title: "“Trust the Process”"
   subtitle: "Examining the Impact of Process Visualizations for Self-Reflection in League of Legends"
   reference: "Kleinman, E., Xu, J., Pfau, J., & El-Nasr, M. S. (2024, October). In *Proceedings of the ACM on Human-Computer Interaction, (CHI PLAY)*"
+  url: "https://doi.org/10.1145/3677111"
   
 - title: "Predicting Success Factors of Video Game Titles and Companies"
   reference: "Pfau, J., Debus, M., Juul, J., Lundedal Hammar, E., Canossa, A., & Seif El-Nasr, M. (2022, October). In *International Conference on Entertainment Computing*."
