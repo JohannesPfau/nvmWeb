@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Teaching
+  enable: true
+  weight: -60
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+cites:
+- title: "AI-Driven Content Generation"
+  reference: "Pfau, J.. At *Utrecht University* (2024-25)."
+  url: "https://osiris-student.uu.nl/onderwijscatalogus/extern/cursus?cursuscode=INFOMAIGT&taal=en&collegejaar=2024"
+  
+- title: "Gamification and Applied Games (Seminars)"
+  reference: "Bakkes, S.C.J., Pfau, J.. At *Utrecht University* (2024-25)."
+  url: "https://osiris-student.uu.nl/onderwijscatalogus/extern/cursus?cursuscode=INFOMAIGT&taal=en&collegejaar=2024"
+
+- title: "Scientific methods for Computing Science (Guest Lecture)"
+  reference: "Bodlaender, H.L., Pfau, J.. At *Utrecht University* (2024-25)."
+  url: "https://osiris-student.uu.nl/onderwijscatalogus/extern/cursus?cursuscode=INFOMAIGT&taal=en&collegejaar=2024"
+
+- title: "Game Data Science (Guest Lectures)"
+  reference: "Seif El Nasr, M., Pfau, J.. At *University of California, Santa Cruz* (2021)."
+  url: "https://osiris-student.uu.nl/onderwijscatalogus/extern/cursus?cursuscode=INFOMAIGT&taal=en&collegejaar=2024"
+  
+- title: "Entertainment Computing (Guest Lecture, Tutorials)"
+  reference: "Malaka, R., Pfau, J.. At *University of Bremen* (2021)."
+  url: "https://osiris-student.uu.nl/onderwijscatalogus/extern/cursus?cursuscode=INFOMAIGT&taal=en&collegejaar=2024"
