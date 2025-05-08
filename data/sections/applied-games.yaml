@@ -64,3 +64,9 @@ cites:
   subtitle: ""
   reference: "Maram, S. S., Pfau, J., Dodechani, J. B., & Seif El-Nasr, M. (2023, April). In *Proceedings of the 18th International Conference on the Foundations of Digital Games*."
   url: "https://doi.org/10.1145/3582437.3582445"
+
+- title: "The Reversed Turing Test"
+  subtitle: ""
+  reference: "Lokhorst, C., Ronde, R., Francis, A., Pfau, J. (2025). In *Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems* (pp. 1-4)."
+  url: "https://dl.acm.org/doi/10.1145/3706599.3720317"
+  award: "Student Game Competition: Innovative Interfaces (Runner-Up)"

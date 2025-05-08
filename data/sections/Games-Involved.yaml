@@ -54,10 +54,10 @@ games:
   vid: "BG3.webm"
   studio: "Larian Studios"
   year: 2023
-  description: "Damage mechanics become immensily complex with game titles rich in variety across equipment, actions, passives and other choices. Baldur's Gate 3 seemed to be an apt candidate to model, simulate and optimize in my work about co-creative damage optimization."
+  description: "Damage mechanics become immensily complex with game titles rich in variety across equipment, actions, passives and other choices. Baldur's Gate 3 seemed to be an apt candidate to model, simulate and optimize in my work about co-creative damage optimization and multi-dimensional balancing."
   url: "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
-  cites: "8"
-  citeGOTO: "8"
+  cites: "8,9"
+  citeGOTO: "9"
   
 - name: "Borderlands 3"
   img: "bl3.jpg"

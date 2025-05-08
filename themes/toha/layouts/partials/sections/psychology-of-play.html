@@ -3,20 +3,19 @@
 	<div class="child">
 		<img class="colImg" src="/images/_psychT.png">
 	</div>
-	
+	{{ $counter := 23 }}
 	<div class="child">
 		<h2>Psychology of Play</h2>
 		What good comes from data alone if it does not push us to further understand ourselves?<br>
-		Together with my PhD students of the <a href="https://guiilab.ucsc.edu/resilience" target="_blank">Lux</a> project, I investigated in how far we can measure <i>resilience</i>, the core competence of bouncing back from life's struggles and adversities, using in-game activity and communication data. We built multiple Alternate Reality games to derive collaborative problem solving solutions <a href="#ref23"><sup>23</sup></a>, investigate the applicability of different stressor types <a href="#ref24"><sup>24</sup></a>, attributed for differences in personality <a href="#ref26"><sup>26</sup></a>, and envisioned intervention mechanisms based on emotion regulation and coping strategies <a href="#ref27"><sup>27</sup></a>. 
-		On another note, I revealed the often unhealthy practice patterns of esports players together with my PhD student Ioannis Bikas <a href="#ref29"><sup>29-30</sup></a>, which besides physical strain and afflictions can also cause training-inhibiting <i>mental fatigue</i>, before looking into alternative feedback mechanisms and schedules <a href="#ref28"><sup>28,31</sup></a>.
-		Eventually, player personality can not only be predictive <a href="#ref26"><sup>26</sup></a>, but also being predicted by in-game choices and play styles <a href="#ref25"><sup>25</sup></a>, which we furthermore utilized to tailor game mechanics to the very player, as a catalyst for increased intrinsic motivation <a href="#ref32"><sup>32</sup></a>.
+		Together with my PhD students of the <a href="https://guiilab.ucsc.edu/resilience" target="_blank">Lux</a> project, I investigated in how far we can measure <i>resilience</i>, the core competence of bouncing back from life's struggles and adversities, using in-game activity and communication data. We built multiple Alternate Reality games to derive collaborative problem solving solutions <a href="#ref{{ add $counter 1 }}"><sup>{{add $counter 1 }}</sup></a>, investigate the applicability of different stressor types <a href="#ref{{add $counter 2 }}"><sup>{{add $counter 2 }}</sup></a>, attributed for differences in personality <a href="#ref{{add $counter 4 }}"><sup>{{add $counter 4 }}</sup></a>, and envisioned intervention mechanisms based on emotion regulation and coping strategies <a href="#ref{{add $counter 5 }}"><sup>{{add $counter 5 }}</sup></a>. 
+		On another note, I revealed the often unhealthy practice patterns of esports players together with my PhD student Ioannis Bikas <a href="#ref{{add $counter 6 }}"><sup>{{add $counter 6 }}-{{add $counter 7 }}</sup></a>, which besides physical strain and afflictions can also cause training-inhibiting <i>mental fatigue</i>, before looking into alternative feedback mechanisms and schedules <a href="#ref{{add $counter 8 }}"><sup>{{add $counter 8 }},{{add $counter 9 }}</sup></a>.
+		Eventually, player personality can not only be predictive <a href="#ref{{add $counter 4 }}"><sup>{{add $counter 4 }}</sup></a>, but also being predicted by in-game choices and play styles <a href="#ref{{add $counter 3 }}"><sup>{{add $counter 3 }}</sup></a>, which we furthermore utilized to tailor game mechanics to the very player, as a catalyst for increased intrinsic motivation <a href="#ref{{add $counter 10 }}"><sup>{{add $counter 10 }}</sup></a>.
 	</div>
 </div>
 <br>
 
 <center>
 <table>
-{{ $counter := 22 }}
 {{ range .cites }}
 	{{ $counter = add $counter 1 }}
 	<tr style="line-height:1.2em; {{if .award }} background-color: #dddddd;{{ end }}">	
