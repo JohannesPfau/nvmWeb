@@ -4,9 +4,10 @@
 		<img class="colImg" src="/images/_teaching.png">
 	</div>
 	
+{{ $counter := 47 }}
 	<div class="child">
 		<h2>Teaching</h2>
-		In parallel to my research activities, I also contributed to a number of academic courses in the roles of tutor, guest lecturer, or seminar coordinator. From 2024 onwards, I started to develop and teach the full course <i>AI-Driven Content Generation</i> at Utrecht University <a href="#ref44"><sup>44</sup></a>. In it's design, I ensured coverage of theoretical background knowledge for students from diverse Master's programs, up-to-date advances of this rapidly evolving field, and practical application through weekly hands-on sessions using local models. Over the course of 8 weeks, students learned to understand and create multifaceted pieces of media, games or systems through generative AI, as can be seen best in the <a href="https://www.youtube.com/watch?v=kEwo8UWL1n0" target="_blank">AICG 2024 Showreel Video</a> below.
+		In parallel to my research activities, I also contributed to a number of academic courses in the roles of tutor, guest lecturer, or seminar coordinator. From 2024 onwards, I started to develop and teach the full course <i>AI-Driven Content Generation</i> at Utrecht University <a href="#ref{{add $counter 1 }}"><sup>{{add $counter 1 }}</sup></a>. In it's design, I ensured coverage of theoretical background knowledge for students from diverse Master's programs, up-to-date advances of this rapidly evolving field, and practical application through weekly hands-on sessions using local models. Over the course of 8 weeks, students learned to understand and create multifaceted pieces of media, games or systems through generative AI, as can be seen best in the <a href="https://www.youtube.com/watch?v=kEwo8UWL1n0" target="_blank">AICG 2024 Showreel Video</a> below.
 	</div>
 </div>
 <br>
@@ -42,7 +43,6 @@
 </div>
 
 <table>
-{{ $counter := 43 }}
 {{ range .cites }}
 	{{ $counter = add $counter 1 }}
 	<tr style="line-height:1.2em; {{if .award }} background-color: #dddddd;{{ end }}">	
