@@ -88,3 +88,8 @@ cites:
   subtitle: "Connecting Game Development to Game Characteristics"
   reference: "Lundedal Hammar, E., Canossa, A., Debus, M. S., Pfau, J., Seif El-Nasr, M., Juul, J., & Azadvar, A. (2023, July). In *International Conference on Human-Computer Interaction*."
   url: "https://doi.org/10.1007/978-3-031-48050-8_23"
+  
+- title: "From Fads to Classics"
+  subtitle: "Analyzing Video Game Trend Evolutions through Steam Tags"
+  reference: "Grelier, N., Pfau, J., Mathieu, N., & Kaufmann, S. (2025, August). In 2025 IEEE Conference on Games (CoG)* (pp. 1-8). IEEE."
+  url: "https://arxiv.org/abs/2506.08881"
