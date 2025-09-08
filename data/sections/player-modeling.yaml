@@ -32,6 +32,7 @@ cites:
   subtitle: "Automated Game Balancing across Multiple Difficulty Dimensions via Deep Player Behavior Modeling"
   reference: "Pfau, J., Liapis, A., Yannakakis, G. N., & Malaka, R. In *IEEE Transactions on Games, 15(2)* (pp. 217-227)."
   url: "https://doi.org/10.1109/TG.2022.3167728"
+  award: "Outstanding Paper Award Nomination"
   
 - title: "Deep Player Behavior Models:"
   subtitle: "Evaluating a Novel Take on Dynamic Difficulty Adjustment"
